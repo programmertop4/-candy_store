@@ -1,0 +1,154 @@
+header {
+    background-color: #f8bbd0; 
+    color: #faeeee;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-input {
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: 500px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 15px; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart, .user {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+  .main-content {
+    padding: 40px 30px;
+    text-align: center;
+  }
+  
+  .main-content h1 {
+    color: #db7093;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(255, 192, 203, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .product-card h3 {
+    color: #c71585;
+    margin-top: 15px;
+  }
+  
+  .product-card .rating,
+  .product-card .price,
+  .product-card .sku {
+    margin: 5px 0;
+  }
+  
+  .view-details {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details:hover {
+    background-color: #ff1493;
+  }
+
+ 
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+    background-repeat: repeat;
+    background-size: 40px;
+    opacity: 0.05;
+    pointer-events: none;
+    animation: floatHearts 60s linear infinite;
+    z-index: 0;
+  }
+  
+  @keyframes floatHearts {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 1000px;
+    }
+  }
+  
+  
+
+  
+  
+  
+
+  
+  

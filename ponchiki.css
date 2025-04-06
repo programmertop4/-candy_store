@@ -1,0 +1,152 @@
+.header {
+    background-color: #f8bbd0; 
+    color: #faeeee;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-input {
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: 500px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 15px; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart, .user {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1{
+    text-align:center;
+    color:rgb(234, 48, 197);
+}
+
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+   }
+   
+   .product-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+   }
+   
+   .product-card:hover {
+    transform: translateY(-5px);
+   }
+   
+   .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   }
+   
+   .product-card h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+   }
+   
+   .product-card .rating,
+   .product-card .price,
+   .product-card .sku {
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+   }
+   
+   .product-card .price {
+    font-weight: bold;
+    color: #e44d26;
+   }
+   
+   .product-card .view-details {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #e44d26;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+   }
+   
+   .product-card .view-details:hover {
+    background-color: #c63e21;
+   }
+
+
+    body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+    background-repeat: repeat;
+    background-size: 40px;
+    opacity: 0.05;
+    pointer-events: none;
+    animation: floatHearts 60s linear infinite;
+    z-index: 0;
+  }
+  
+  @keyframes floatHearts {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 1000px;
+    }
+  }

@@ -1,0 +1,155 @@
+.header {
+    background-color: #f8bbd0; 
+    color: #faeeee;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-input {
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: 500px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 15px; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart, .user {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.jelly-pop-section {
+    padding: 60px;
+    background: linear-gradient(135deg, #ffe0f0, #f6f5fa);
+    text-align: center;
+  }
+  
+  .jelly-pop-title {
+    font-size: 2.5rem;
+    color: #ff1493;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #ffb6c1;
+  }
+  
+  .jelly-pop-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .jelly-pop-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.4);
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .jelly-pop-card:hover {
+     box-shadow: 0 0 50px rgba(255, 105, 180, 0.7);
+  }
+  
+  .jelly-pop-card img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .jelly-pop-card h3 {
+    color: #ff69b4;
+    font-size: 1.4rem;
+  }
+  
+  .jelly-pop-card p {
+    color: #ff1493;
+    margin: 10px 0;
+  }
+  
+  .jelly-pop-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff1493;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jelly-pop-btn:hover {
+    background: #ff69b4;
+  }
+
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+    background-repeat: repeat;
+    background-size: 40px;
+    opacity: 0.05;
+    pointer-events: none;
+    animation: floatHearts 60s linear infinite;
+    z-index: 0;
+  }
+  
+  @keyframes floatHearts {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 1000px;
+    }
+  }
+  
+  
+  
+  

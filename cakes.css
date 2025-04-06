@@ -1,0 +1,108 @@
+.header {
+    background-color: #f8bbd0; 
+    color: #faeeee;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-input {
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: 500px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 15px; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart, .user {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cakes-slider-section {
+    padding: 30px;
+    background-color: #fff7fa;
+    text-align: center;
+  }
+  
+  .cakes-slider-section h2 {
+    font-size: 28px;
+    color: #d94c67;
+    margin-bottom: 20px;
+  }
+  
+  .cakes-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .cake-card {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .cake-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .cake-card h3 {
+    color: #c94f7c;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .cake-card p {
+    font-size: 14px;
+    color: #444;
+  }
+  
+  

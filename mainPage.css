@@ -1,0 +1,268 @@
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.header {
+    background-color: #f8bbd0; 
+    color: #faeeee;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.search-input {
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: 500px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.search-icon {
+    position: absolute; 
+    right: 15px; 
+    font-size: 18px; 
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart, .user {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content-area {
+    padding-top: 60px;
+}
+
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px 0; 
+    color: #333;
+    border-top: 1px solid #ddd; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.copyright {
+    font-size: 0.9em; 
+    margin: 0; 
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons li {
+    margin-left: 15px; 
+}
+
+.social-icons li:first-child {
+    margin-left: 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #555; 
+    font-size: 22px; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons li:nth-child(1) a:hover {
+    color: #5042ec; 
+}
+
+.social-icons li:nth-child(2) a:hover { 
+    color: #E4405F;
+}
+
+.social-icons li:nth-child(3) a:hover {
+    color: #de2f69;
+}
+
+.social-icons li:nth-child(4) a:hover {
+    color: #1DA1F2;
+}
+
+
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #ffe6e6;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.left-sidebar {
+    left: 0;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #e44d26;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.category-list a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #e44d26;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.category-list a:hover {
+    background-color: #fdd4d4;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.hero-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hero-section h1 {
+    color: #e44d26;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.privilege-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block; 
+    text-align: left; 
+}
+
+.privilege-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.privilege-list li span {
+    font-weight: normal;
+    color: #333;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+    background-repeat: repeat;
+    background-size: 40px;
+    opacity: 0.05;
+    pointer-events: none;
+    animation: floatHearts 60s linear infinite;
+    z-index: 0;
+  }
+  
+  @keyframes floatHearts {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 1000px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
